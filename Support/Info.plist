@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleIdentifier</key>
+    <string>com.yejin.StickerTodo</string>
+    <key>CFBundleName</key>
+    <string>StickerTodo</string>
+    <key>CFBundleDisplayName</key>
+    <string>스티커 투두</string>
+    <key>CFBundleExecutable</key>
+    <string>StickerTodo</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.0.0</string>
+    <key>CFBundleVersion</key>
+    <string>1</string>
+    <key>LSMinimumSystemVersion</key>
+    <string>14.0</string>
+    <key>LSUIElement</key>
+    <true/>
+    <key>NSHighResolutionCapable</key>
+    <true/>
+    <key>NSRemindersFullAccessUsageDescription</key>
+    <string>스티커에 할 일을 표시하고 아이폰 미리 알림과 동기화하기 위해 필요해요.</string>
+    <key>NSRemindersUsageDescription</key>
+    <string>스티커에 할 일을 표시하고 아이폰 미리 알림과 동기화하기 위해 필요해요.</string>
+</dict>
+</plist>
