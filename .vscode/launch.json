@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:StickerTodo}",
+            "name": "Debug StickerTodo",
+            "target": "StickerTodo",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug StickerTodo"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:StickerTodo}",
+            "name": "Release StickerTodo",
+            "target": "StickerTodo",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release StickerTodo"
+        }
+    ]
+}

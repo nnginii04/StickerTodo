@@ -56,7 +56,7 @@ final class RemindersService: ObservableObject {
         observer = NotificationCenter.default.addObserver(
             forName: .EKEventStoreChanged, object: store, queue: .main
         ) { [weak self] _ in
-            Task { @MainActor in self?.reloadAll() }
+            MainActor.assumeIsolated { self?.reloadAll() }
         }
     }
 
